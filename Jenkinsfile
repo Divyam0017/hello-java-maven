@@ -12,7 +12,7 @@ pipeline {
             }
         }
 
-        stage('Run') {
+        stage('Run App') {
             steps {
                 sh 'java -jar target/hello-1.0.jar'
             }
